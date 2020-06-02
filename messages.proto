@@ -512,64 +512,68 @@ message Message {
   ScenarioExecutionStartingRequest scenarioExecutionStartingRequest = 6;
   /// [ScenarioExecutionEndingRequest](#gauge.messages.ScenarioExecutionEndingRequest)
   ScenarioExecutionEndingRequest scenarioExecutionEndingRequest = 7;
+  /// [ConceptExecutionStartingRequest](#gauge.messages.ConceptExecutionStartingRequest)
+  ConceptExecutionStartingRequest conceptExecutionStartingRequest = 8;
+  /// [ConceptExecutionEndingRequest](#gauge.messages.ConceptExecutionEndingRequest)
+  ConceptExecutionEndingRequest conceptExecutionEndingRequest = 9;
   /// [StepExecutionStartingRequest](#gauge.messages.StepExecutionStartingRequest)
-  StepExecutionStartingRequest stepExecutionStartingRequest = 8;
+  StepExecutionStartingRequest stepExecutionStartingRequest = 10;
   /// [StepExecutionEndingRequest](#gauge.messages.StepExecutionEndingRequest)
-  StepExecutionEndingRequest stepExecutionEndingRequest = 9;
+  StepExecutionEndingRequest stepExecutionEndingRequest = 11;
   /// [ExecuteStepRequest](#gauge.messages.ExecuteStepRequest)
-  ExecuteStepRequest executeStepRequest = 10;
+  ExecuteStepRequest executeStepRequest = 12;
   /// [ExecutionEndingRequest](#gauge.messages.ExecutionEndingRequest)
-  ExecutionEndingRequest executionEndingRequest = 11;
+  ExecutionEndingRequest executionEndingRequest = 13;
   /// [StepValidateRequest](#gauge.messages.StepValidateRequest)
-  StepValidateRequest stepValidateRequest = 12;
+  StepValidateRequest stepValidateRequest = 14;
   /// [StepValidateResponse](#gauge.messages.StepValidateResponse)
-  StepValidateResponse stepValidateResponse = 13;
+  StepValidateResponse stepValidateResponse = 15;
   /// [ExecutionStatusResponse](#gauge.messages.ExecutionStatusResponse)
-  ExecutionStatusResponse executionStatusResponse = 14;
+  ExecutionStatusResponse executionStatusResponse = 16;
   /// [StepNamesRequest](#gauge.messages.StepNamesRequest)
-  StepNamesRequest stepNamesRequest = 15;
+  StepNamesRequest stepNamesRequest = 17;
   /// [StepNamesResponse](#gauge.messages.StepNamesResponse)
-  StepNamesResponse stepNamesResponse = 16;
+  StepNamesResponse stepNamesResponse = 18;
   /// [SuiteExecutionResult ](#gauge.messages.SuiteExecutionResult )
-  SuiteExecutionResult suiteExecutionResult = 17;
+  SuiteExecutionResult suiteExecutionResult = 19;
   /// [KillProcessRequest](#gauge.messages.KillProcessRequest)
-  KillProcessRequest killProcessRequest = 18;
+  KillProcessRequest killProcessRequest = 20;
   /// [ScenarioDataStoreInitRequest](#gauge.messages.ScenarioDataStoreInitRequest)
-  ScenarioDataStoreInitRequest scenarioDataStoreInitRequest = 19;
+  ScenarioDataStoreInitRequest scenarioDataStoreInitRequest = 21;
   /// [SpecDataStoreInitRequest](#gauge.messages.SpecDataStoreInitRequest)
-  SpecDataStoreInitRequest specDataStoreInitRequest = 20;
+  SpecDataStoreInitRequest specDataStoreInitRequest = 22;
   /// [SuiteDataStoreInitRequest](#gauge.messages.SuiteDataStoreInitRequest)
-  SuiteDataStoreInitRequest suiteDataStoreInitRequest = 21;
+  SuiteDataStoreInitRequest suiteDataStoreInitRequest = 23;
   /// [StepNameRequest](#gauge.messages.StepNameRequest)
-  StepNameRequest stepNameRequest= 22;
+  StepNameRequest stepNameRequest= 24;
   /// [StepNameResponse](#gauge.messages.StepNameResponse)
-  StepNameResponse stepNameResponse= 23;
+  StepNameResponse stepNameResponse= 25;
   /// [RefactorRequest](#gauge.messages.RefactorRequest)
-  RefactorRequest refactorRequest = 24;
+  RefactorRequest refactorRequest = 26;
   /// [RefactorResponse](#gauge.messages.RefactorResponse)
-  RefactorResponse refactorResponse = 25;
+  RefactorResponse refactorResponse = 27;
   /// [UnsupportedMessageResponse](#gauge.messages.UnsupportedMessageResponse)
-  UnsupportedMessageResponse unsupportedMessageResponse = 26;
+  UnsupportedMessageResponse unsupportedMessageResponse = 28;
   /// [CacheFileRequest](#gauge.messages.CacheFileRequest)
-  CacheFileRequest cacheFileRequest = 27;
+  CacheFileRequest cacheFileRequest = 29;
   /// [StepPositionsRequest](#gauge.messages.StepPositionsRequest)
-  StepPositionsRequest stepPositionsRequest = 28;
+  StepPositionsRequest stepPositionsRequest = 30;
   /// [StepPositionsResponse](#gauge.messages.StepPositionsResponse)
-  StepPositionsResponse stepPositionsResponse = 29;
+  StepPositionsResponse stepPositionsResponse = 31;
   /// [ImplementationFileListRequest](#gauge.messages.ImplementationFileListRequest)
-  ImplementationFileListRequest implementationFileListRequest = 30;
+  ImplementationFileListRequest implementationFileListRequest = 32;
   /// [ImplementationFileListResponse](#gauge.messages.ImplementationFileListResponse)
-  ImplementationFileListResponse implementationFileListResponse = 31;
+  ImplementationFileListResponse implementationFileListResponse = 33;
   /// [StubImplementationCodeRequest](#gauge.messages.StubImplementationCodeRequest)
-  StubImplementationCodeRequest stubImplementationCodeRequest = 32;
+  StubImplementationCodeRequest stubImplementationCodeRequest = 34;
   /// [FileDiff](#gauge.messages.FileDiff)
-  FileDiff fileDiff = 33;
+  FileDiff fileDiff = 35;
   /// [ImplementationFileGlobPatternRequest](#gauge.messages.ImplementationFileGlobPatternRequest)
-  ImplementationFileGlobPatternRequest implementationFileGlobPatternRequest = 34;
+  ImplementationFileGlobPatternRequest implementationFileGlobPatternRequest = 36;
   /// [ImplementationFileGlobPatternResponse](#gauge.messages.ImplementationFileGlobPatternResponse)
-  ImplementationFileGlobPatternResponse implementationFileGlobPatternResponse = 35;
+  ImplementationFileGlobPatternResponse implementationFileGlobPatternResponse = 37;
   /// [SuiteExecutionResult ](#gauge.messages.SuiteExecutionResult )
-  SuiteExecutionResultItem suiteExecutionResultItem = 36;
+  SuiteExecutionResultItem suiteExecutionResultItem = 38;
   /// [KeepAlive ](#gauge.messages.KeepAlive )
-  KeepAlive keepAlive = 37;
+  KeepAlive keepAlive = 39;
 }
