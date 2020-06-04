@@ -91,7 +91,7 @@ message ConceptExecutionStartingRequest {
     ExecutionInfo currentExecutionInfo = 1;
     /// Holds concept result in concept execution starting.
     /// Some fields will not be populated before execution.
-    gauge.messages.ProtoStepResult stepResult = 2;
+    gauge.messages.ProtoConceptResult stepResult = 2;
 
     int32 stream = 3;
 }
@@ -101,7 +101,7 @@ message ConceptExecutionEndingRequest {
     /// Holds the current concept execution info.
     ExecutionInfo currentExecutionInfo = 1;
     /// Holds concept result in concept execution ending.
-    gauge.messages.ProtoStepResult stepResult = 2;
+    gauge.messages.ProtoConceptResult stepResult = 2;
 
     int32 stream = 3;
 }
